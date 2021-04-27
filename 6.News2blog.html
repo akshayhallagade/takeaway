@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required Icons -->
+    <!-- <link rel="stylesheet" href="/Fontawesome/fontawesome-free-5.15.3-web/css/all.css"> -->
+    <script src="https://kit.fontawesome.com/5699b6b2cf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <!-- Required Fonts -->
+    <!-- Philosopher -->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!-- Charmanmon -->
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
+    <!-- Heebo 400 and 600 -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap" rel="stylesheet">
+    <!-- Permanent Marker -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <title>TakesAway.com/Catering</title>
+    <!-- font-family:'Philosopher', sans-serif; -->
+    <!-- font-family:'Charmonman', cursive; -->
+    <!-- font-family: 'Heebo', sans-serif; -->
+    <!-- font-family: 'Barlow', sans-serif; -->
+    <!-- font-family: 'Permanent Marker',cursive; -->
+    <!-- color: rgb(220, 20, 20); -->
+    <!-- #242c357c; -->
+
+</head>
+
+<body style="background-color: #15181c;">
+    <!-- SideCart Button -->
+    <div class="sidecart-button">
+        <div class="sidecart-button-icon"><i class="fas fa-shopping-cart" style="margin-top: 25px;color: white;"></i>
+        </div>
+        <p class="sidecart-button-content">No Product in the Cart</p>
+    </div>
+    <!--on the top-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- Section 1 -->
+    <!-- 1.Home overlay -->
+    <!-- 2.Navbar -->
+    <!-- 3.Heading -->
+    <div class="bg-image"
+        style="background-image: url('Images/page2/sitedata/banner4.jpg'),linear-gradient(180deg, #000000b0 30%, #31313141 100%);background-repeat: no-repeat,no-repeat;background-position: center; background-size: cover; height: 100vh;background-blend-mode: darken;">
+        <div id="Home-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
+            <div id="Home-overlays-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
+                <div id="Home-overlays-overlay2" onclick="nav3_close(),nav2_close(),nav1_close()">
+                    <div class="Home-overlays-overlay-group" style="width:100%;height:fit content;color: black;">
+                        <button class="Home-overlays-overlay-button">
+                            <i class="far fa-times-circle"></i>
+                        </button>
+                        <img src="Images/Homepage/Screen1/logo2.png" alt="Image" class="Home-overlays-overlay-img">
+                        <h2 class="Home-overlays-overlay-h2">Welcome Chase flavor</h2>
+                        <p class="Home-overlays-overlay-p">As well known and we are very busy all days advice you. Us of
+                            before arriving, so we can guarantee your seat. Us of before arriving, so we very busy all
+                            days advice you. Us of before arriving, so we can guarantee your seat. Us of before
+                            arriving, so we can.</p>
+                        <div class="Home-overlays-overlay-icon-group">
+                            <i class="fab fa-facebook-f" id="Home-overlays-overlay-icon"></i>
+                            <i class="fab fa-twitter" id="Home-overlays-overlay-icon"></i>
+                            <i class="fab fa-instagram" id="Home-overlays-overlay-icon"></i>
+                            <i class="fab fa-linkedin-in" id="Home-overlays-overlay-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler collapsed border-0" type=" button" data-toggle="collapse"
+                data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false"
+                aria-label="Toggle navigation" style="outline: none;filter:invert()"><i class="fas fa-bars"></i>
+            </button>
+            <button class="text-light Home-menu-icon-combination" onclick="nav1_open(),nav2_open(),nav3_open()"
+                style="border: transparent; background-color: transparent;outline: none;"><i class="fas fa-bars"></i>
+            </button>
+            <script>
+                function nav1_open() {
+                    document.getElementById("Home-overlay").style.width = "100%";
+                }
+                function nav1_close() {
+                    document.getElementById("Home-overlay").style.width = "0%";
+                }
+                function nav2_open() {
+                    document.getElementById("Home-overlays-overlay").style.width = "13rem";
+                }
+                function nav2_close() {
+                    document.getElementById("Home-overlays-overlay").style.width = "0%";
+                }
+                function nav3_open() {
+                    document.getElementById("Home-overlays-overlay2").style.height = "100%";
+                }
+                function nav3_close() {
+                    document.getElementById("Home-overlays-overlay2").style.height = "0%";
+                }
+            </script>
+            <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text-style" href="/1.Home.html" style="color:white;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text-style" href="/2.Menu.html" style="color:white">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text-style" href="/3.Catering.html" style="color:white">
+                            CATERING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text-style" href="/4.About.html" style="color:white">
+                            ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-text-style" href="#" id="dropdown10"
+                            data-toggle="dropdown" aria-expanded="false" aria-haspopup="true"
+                            style="color:white">PAGES</a>
+                        <div class="dropdown-menu rounded-0" aria-labelledby="dropdown10">
+                            <a class="dropdown-item" href="/5.Pages-Team.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">TEAM</a>
+                            <a class="dropdown-item" href="/5.Pages-Contact.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CONTACT</a>
+                            <a class="dropdown-item" href="/5.Pages-Gallery.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">GALLERY</a>
+                            <a class="dropdown-item" href="/5.Pages-Shop.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">SHOP</a>
+                            <a class="dropdown-item" href="/5.Pages-MyAcc.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">MY
+                                ACCOUNT</a>
+                            <a class="dropdown-item" href="/5.Pages-Checkout.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CHECKOUT</a>
+                            <a class="dropdown-item" href="/5.Pages-Cart.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CART</a>
+                            <a class="dropdown-item" href="/5.Pages-FAQ.html"
+                                style="padding:0.6rem 0.8rem;font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text-style" href="/6.News.html" style="color:white;">
+                            NEWS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler collapsed border-0" type=" button" data-toggle="collapse"
+                data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false"
+                aria-label="Toggle navigation" style="outline: none;filter:invert()"><i class="fas fa-bars"></i>
+            </button>
+            <button class="text-light Home-menu-icon-combination" onclick="nav1_open(),nav2_open(),nav3_open()"
+                style="border: transparent; background-color: transparent;outline: none;"><i class="fas fa-bars"></i>
+            </button>
+            <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="home">
+                        <a href="1.Home.html" class="nav-link nav-text-style">HOME</a>
+                    </li>
+                    <li class="nav-item" id="menu">
+                        <a href="2.Menu.html" class="nav-link nav-text-style">MENU</a>
+                    </li>
+                    <li class="nav-item" id="catering">
+                        <a href="3.Catering.html" class="nav-link nav-text-style">
+                            CATERING</a>
+                    </li>
+                    <li class="nav-item" id="about">
+                        <a href="4.About.html" class="nav-link nav-text-style">
+                            ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown" id="pages">
+                        <a class="nav-link dropdown-toggle nav-text-style" href="#" id="dropdown10"
+                            data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">PAGES</a>
+                        <div class="dropdown-menu rounded-0" aria-labelledby="dropdown10">
+                            <a class="dropdown-item" href="5.Pages-Team.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">TEAM</a>
+                            <a class="dropdown-item" href="5.Pages-Contact.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CONTACT</a>
+                            <a class="dropdown-item" href="5.Pages-Gallery.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">GALLERY</a>
+                            <a class="dropdown-item" href="5.Pages-Shop.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">SHOP</a>
+                            <a class="dropdown-item" href="5.Pages-MyAcc.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">MY
+                                ACCOUNT</a>
+                            <a class="dropdown-item" href="5.Pages-Checkout.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CHECKOUT</a>
+                            <a class="dropdown-item" href="5.Pages-Cart.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CART</a>
+                            <a class="dropdown-item" href="5.Pages-FAQ.html"
+                                style="padding:0.6rem 0.8rem;font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" id="news">
+                        <a href="6.News.html" class="nav-link nav-text-style">
+                            NEWS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            function nav1_open() {
+                document.getElementById("Home-overlay").style.width = "100%";
+            }
+            function nav1_close() {
+                document.getElementById("Home-overlay").style.width = "0%";
+            }
+            function nav2_open() {
+                document.getElementById("Home-overlays-overlay").style.width = "13rem";
+            }
+            function nav2_close() {
+                document.getElementById("Home-overlays-overlay").style.width = "0%";
+            }
+            function nav3_open() {
+                document.getElementById("Home-overlays-overlay2").style.height = "100%";
+            }
+            function nav3_close() {
+                document.getElementById("Home-overlays-overlay2").style.height = "0%";
+            }
+        </script>
+        <div class="page2-heading">
+            <h1 class="display-1 text-light text-center page2-heading-text"
+                style="font-family:'Philosopher', sans-serif;font-size: 5vw;">New restaurant town that Looking think
+                that</h1>
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="Images/page6/2-news.jpg" alt="Card image" style="width: 100%;">
+                <div class="py-4">
+                    <p style="font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5">
+                        <a class="px-1" href="#"
+                            style="font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5">
+                            <i class="far fa-user" style="font-size: 0.05rem;"></i> wptwuser
+                        </a>
+                        <a class="px-1" href="#"
+                            style="font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5">
+                            <i class="far fa-clock" style="font-size: 0.05rem;"></i> January 20, 2021
+                        </a>
+                        <a class="px-1" href="#"
+                            style="font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5">
+                            <i class="far fa-folder-open" style="font-size: 0.05rem;"></i> Burger
+                        </a>
+                    </p>
+                    <p style="font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5">
+                        You’re cooking a meal, especially a holiday meal, to be served to friends or family, the key to
+                        success is planning. Don’t run around second guessing yourself and what you’re going to make.
+                        Plan your menu, do the shopping, and do the prep beforehand. If you’re really neurotic, do a
+                        test run – that way you’ll know the recipes work, you’ll have the timing down pat, and best of
+                        all, you’ll get to eat everything twice!
+                    </p>
+                    <p style="font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5">
+                        All of the recipes in this series are designed to be simple and easy. Part of the joy of the
+                        Instant Pot is that there’s no guessing. With regular cooking, everyone’s idea of medium high
+                        heat is different and when you factor in what kind of pan you’re using and whether or not you
+                        have a gas or electric range means that there are a lot of variables. Instant Pots are great
+                        because everyone’s is the same and when you say, cook on high pressure for 5 minutes, the
+                        results are going to be the same. The only thing that will possibly be different is seasoning,
+                        which should be, because you should always season to taste. And speaking of seasoning to taste,
+                        all of the recipes in this Instant Pot series are 5 ingredients, not counting salt and pepper.
+                    </p>
+                </div>
+                <div class="border-3 px-3 py-3" style="width:100%; border: 1px solid white;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <a class="text-white" href="6.News3blog.html"
+                                    style="font-family:'Philosopher', sans-serif;font-size:1rem;">Labor Depar rules pro
+                                    as tweaks overtime
+                                </a>
+                                <p class="text-muted py-0" style="font-size:0.7rem;">
+                                    <i class="fas fa-backward"></i>
+                                    <a class="text-muted" href="6.News3blog.html"
+                                        style="font-family: 'Heebo', sans-serif;">Previous
+                                        post</a>
+                                </p>
+                            </div>
+                            <div class="col text-right" style="border-left: 1px solid grey;">
+                                <a class="text-white" href="6.News1blog.html"
+                                    style="font-family:'Philosopher', sans-serif;font-size:1rem;">Starbucks invests
+                                    $100M in new retail startups
+                                </a>
+                                <p class="text-muted py-0" style="font-size:0.7rem;">
+                                    <a class="text-muted" href="6.News1blog.html"
+                                        style="font-family: 'Heebo', sans-serif;">Next
+                                        post</a>
+                                    <i class="fas fa-forward"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comment Section -->
+                <div class="py-4">
+                    <h4 class="py-1" style="font-family:'Philosopher', sans-serif;color: rgb(255, 255, 255);">Leave a
+                        Reply
+                    </h4>
+                    <p style="font-size:0.3rem;color: #D5D5D5;">Your email address will not be published. Required
+                        fields are marked *
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="username"
+                                style="font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;">First
+                                name</label><span
+                                style="color: rgb(220,20,20) !important; display: inline; float: none;">*</span>
+                            <input class="text-light" type="text" id="username"
+                                style="width: 100%;padding:0.35rem 0.8rem;background-color: #242c357c;border: none;outline: none;font-size:0.8rem"
+                                required><br>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="username"
+                                style="font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;">Last
+                                name</label><span
+                                style="color: rgb(220,20,20) !important; display: inline; float: none;">*</span>
+                            <input class="text-light" type="text" id="username"
+                                style="width: 100%;padding:0.35rem 0.8rem;background-color: #242c357c;border: none;outline: none;font-size:0.8rem"
+                                required><br>
+                        </div>
+                    </div>
+                    <label for="password" style="font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;">Enter
+                        Website</label><br>
+                    <input class="text-light" type="text"
+                        style="width: 100%;padding:0.35rem 0.8rem;background-color: #242c357c;border: none;outline: none;font-size:0.8rem"
+                        required><br>
+                    <label for="password" style="font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;">Enter
+                        Website</label><br>
+                    <textarea class="text-light"
+                        style="width: 100%;height:10rem;padding:0.35rem 0.8rem;background-color: #242c357c;border: none;outline: none;font-size:0.8rem"
+                        required></textarea>
+                    <button type="button" class="btn btn-success my-3"
+                        style="font-size:0.3rem;padding:0.65rem 1.15rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;">
+                        POST COMMENT
+                    </button>
+                </div>
+            </div>
+            <div class=" col-md-4">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded-0" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon"
+                        style="border: none;background-color: #242c357c;font-size: 0.8rem;font-weight: 700;" />
+                    <button type="button" class="btn btn-outline-primary rounded-0 text-light py-2"
+                        style="background-color: rgb(220,20,20);border: none;font-size: 0.8rem;"><i
+                            class="fas fa-search"></i></button>
+                </div>
+                <div class="my-4" style="border:1px solid rgb(54, 54, 54);">
+                    <div style="padding: 1.5rem;">
+                        <h4 class="text-light text-center"
+                            style="font-family:'Philosopher', sans-serif;font-size: 1rem;">
+                            Recent Posts
+                        </h4>
+                        <hr class="mb-4" style="border-top:3px solid rgb(220,20,20); width: 3rem;" />
+                        <a class="my-2" href="6.News1blog.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214);text-decoration: none;">
+                            Starbucks invests $100M in
+                            new retail
+                            startups
+                        </a>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);padding: 0;" />
+                        <a class="my-2" href="6.News2blog.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214);text-decoration: none;">New
+                            restaurant town that
+                            Looking think
+                            that
+                        </a>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <a class="my-2" href="6.News3blog.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214);text-decoration: none;">Labor Depar rules
+                            pro as
+                            tweaks overtime
+                        </a>
+                    </div>
+                </div>
+                <div class="my-4" style="border:1px solid rgb(54, 54, 54);">
+                    <div style="padding: 1.5rem;">
+                        <h4 class="text-light text-center"
+                            style="font-family:'Philosopher', sans-serif;font-size: 1rem;">
+                            Recent Comments
+                        </h4>
+                        <hr class="mb-4" style="border-top:3px solid rgb(220,20,20); width: 3rem;" />
+                        <p class="my-2" style="font-size:0.75rem;color:rgb(214, 214, 214);">wptwuser on
+                            Burger &
+                            Pasta
+                        </p>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <p class="my-2" style="font-size:0.75rem;color:rgb(214, 214, 214);">wptwuser on
+                            Baked Beer
+                            Pizza
+                        </p>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <p class="my-2" style="font-size:0.75rem;color:rgb(214, 214, 214);">John Doe on Beer
+                            Brewery
+                        </p>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <p class="my-2" style="font-size:0.75rem;color:rgb(214, 214, 214);">John Franklin on
+                            Baked
+                            Beer
+                            Pizza
+                        </p>
+                    </div>
+                </div>
+                <div class="my-4" style="border:1px solid rgb(54, 54, 54);">
+                    <div style="padding: 1.5rem;">
+                        <h4 class="text-light text-center"
+                            style="font-family:'Philosopher', sans-serif;font-size: 1rem;">
+                            Archives
+                        </h4>
+                        <hr style="border-top:3px solid rgb(220,20,20); width: 3rem;" />
+                        <p style="font-size:0.75rem;color:rgb(214, 214, 214);">January 2021
+                        </p>
+                    </div>
+                </div>
+                <div class="my-4" style="border:1px solid rgb(54, 54, 54);">
+                    <div style="padding: 1.5rem;">
+                        <h4 class="text-light text-center"
+                            style="font-family:'Philosopher', sans-serif;font-size: 1rem;">
+                            Categories
+                        </h4>
+                        <hr style="border-top:3px solid rgb(220,20,20); width: 3rem;" />
+                        <p style="font-size:0.75rem;color:rgb(214, 214, 214);">Burger
+                        </p>
+                    </div>
+                </div>
+                <div class="my-4" style="border:1px solid rgb(54, 54, 54);">
+                    <div style="padding: 1.5rem;">
+                        <h4 class="text-light text-center"
+                            style="font-family:'Philosopher', sans-serif;font-size: 1rem;">
+                            Meta
+                        </h4>
+                        <hr class="mb-4" style="border-top:3px solid rgb(220,20,20); width: 3rem;" />
+                        <a class="my-2" href="5.Pages-MyAcc.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214); text-decoration: none;">Log in
+                        </a>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <a class="my-2" href="5.Pages-MyAcc.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214); text-decoration: none;">Entries feed
+                        </a>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <a class="my-2" href="5.Pages-MyAcc.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214); text-decoration: none;">Comments feed
+                        </a>
+                        <hr class="my-2" style="border-top:2.5px dotted rgb(75, 75, 75);" />
+                        <a class="my-2" href="5.Pages-MyAcc.html"
+                            style="font-size:0.75rem;color:rgb(214, 214, 214); text-decoration: none;">WordPress.org
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section 3 - Footer -->
+    <footer class="container-fluid footer-background-img">
+        <div class="container footer-logo-image">
+            <div class="row">
+                <div class="col text-center">
+                    <img class="" src="images/Homepage/Screen1/logo.png" alt="Image" style="width:7rem;">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <p class="text-light" style="font-size: 0.75rem;font-weight: 600;">Subscribe for deals, offers and
+                        upcoming
+                        events.
+                    </p>
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="input-group">
+                                <input class="form-control rounded-0 bg-dark border-0" placeholder=" Enter your email"
+                                    aria-describedby="search-addon" style="font-size:0.75rem;;padding:0.5rem 0.5rem;" />
+                                <button type="button" class="btn rounded-0 text-light" style="font-size:0.75rem;background-color:
+                                rgb(220,20,20);padding:0.5rem 0.7rem;"><span
+                                        class="material-icons">arrow_forward</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-light text-center py-md-0 py-2" style="font-size: 0.7rem;font-weight: 600;">You’ll
+                        find Gloreya
+                        Covent Garden
+                        moments from West
+                        End’s famous theatres.</p>
+                    <p class="text-light text-center" style="font-size: 0.7rem;font-weight:600;"><i
+                            class="fas fa-phone-alt" style="color:rgb(220,20,20);"></i> +94 91
+                        454 9650</p>
+                    <p class="text-light text-center" style="font-size: 0.8rem;font-weight:600;"><i
+                            class="fas fa-envelope" style="color:rgb(220,20,20);"></i> takeawaysonweb@mail.com</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <button type="button" class="btn btn-lg rounded-0"
+                            style=" font-family: 'Heebo' , sans-serif;font-size: 0.8rem; padding:4.5% 14%;"><a
+                                class="px-2" onclick="window.location.href='1.Home.html'"
+                                style="color: white; text-decoration: none;">RESERVATION</a>
+                            <i class="fas fa-arrow-right" id="screen1-icon"></i>
+                        </button>
+                    </div>
+                    <div class="py-3 text-center">
+                        <span style="padding: 0.3rem 0.7rem;border-radius: 1.5rem;border: 1px solid grey;"><i
+                                class="fab fa-facebook-f text-light"></i></span>
+                        <span style="padding: 0.3rem 0.5rem;border-radius: 1.5rem;border: 1px solid grey;"><i
+                                class="fab fa-twitter text-light"></i></span>
+                        <span style="padding: 0.3rem 0.55rem;border-radius: 1.5rem;border: 1px solid grey;"><i
+                                class="fab fa-instagram text-light"></i></span>
+                        <span style="padding: 0.3rem 0.45rem;border-radius: 1.5rem;border: 1px solid grey;"><i
+                                class="fab fa-youtube text-light"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="border-top:1px solid grey;border-bottom:1px solid grey;">
+                <div class="col-md-2 text-center" style="padding: 1.25rem 0;font-size: 0.85rem;"><a
+                        class="text-light text-weight-bold" href="1.Home.html"
+                        style="font-family: 'Heebo', sans-serif;">HOME</a></div>
+                <div class="col-md-2 text-center" style="padding: 1.25rem 0;font-size: 0.85rem;"><a
+                        class="text-light text-weight-bold" href="2.Menu.html"
+                        style="font-family: 'Heebo', sans-serif;">MENU</a></div>
+                <div class="col-md-2 text-center" style="padding: 1.25rem 0;font-size: 0.85rem;"><a
+                        class="text-light text-weight-bold" href="3.Catering.html"
+                        style="font-family: 'Heebo', sans-serif;">CATERING</a></div>
+                <div class="col-md-2 text-center" style="padding: 1.25rem 0;font-size: 0.85rem;"><a
+                        class="text-light text-weight-bold" href="4.About.html"
+                        style="font-family: 'Heebo', sans-serif;">ABOUT</a></div>
+                <div class="col-md-2 text-center text-weight-bold" style="padding: 1.25rem 0;font-size: 0.85rem;">
+                    <div class="dropdown">
+                        <a class="dropdown-toggle text-light" data-toggle="dropdown"
+                            style="font-family: 'Heebo', sans-serif;">PAGES</a>
+                        <div class="dropdown-menu rounded-0">
+                            <a class="dropdown-item" href="5.Pages-Team.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">TEAM</a>
+                            <a class="dropdown-item" href="5.Pages-Contact.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CONTACT</a>
+                            <a class="dropdown-item" href="5.Pages-Gallery.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">GALLERY</a>
+                            <a class="dropdown-item" href="5.Pages-Shop.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">SHOP</a>
+                            <a class="dropdown-item" href="5.Pages-MyAcc.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">MY
+                                ACCOUNT</a>
+                            <a class="dropdown-item" href="5.Pages-Checkout.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CHECKOUT</a>
+                            <a class="dropdown-item" href="5.Pages-Cart.html"
+                                style="padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">CART</a>
+                            <a class="dropdown-item" href="5.Pages-FAQ.html"
+                                style="padding:0.6rem 0.8rem;font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;">FAQ</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-2 text-center" style="padding: 1.25rem 0;font-size: 0.85rem;"><a class="text-light"
+                        href="6.News.html" style="font-family: 'Heebo', sans-serif;">NEWS</a></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-light text-center" style="font-size: 0.75rem;padding:0.3rem 0 0 0">© Gloreya, 2021.
+                        All
+                        rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
