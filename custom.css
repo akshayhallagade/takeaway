@@ -1,0 +1,1138 @@
+/* ............................................................................................................................... */
+/* ............................................................................................................................... */
+/* .............................................................Extraas........................................................... */
+/* ............................................................................................................................... */
+/* ............................................................................................................................... */
+
+/*//////////////////////////////////// Side - Cart ///////////////////////////////////////////*/
+.sidecart-button {
+  position: fixed;
+  margin-top: 20%;
+  width: 500px;
+  height: 75px;
+  right: -450px;
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 0 0 15px;
+  z-index: 900;
+}
+.sidecart-button:hover {
+  right: 0;
+}
+.sidecart-button-icon {
+  height: 100%;
+  width: 50px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  border-radius: 10px 0 0 10px;
+}
+.sidecart-button-content {
+  width: 410px;
+  margin: 20px;
+  float: left;
+  color: rgb(189, 189, 189);
+}
+/*/////////////////////////////////////////// back-to-top-button ///////////////////////////////////////////*/
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  z-index: 1000;
+  border: none;
+  background-color: rgb(220, 20, 20);
+  color: white;
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding: 20px; */
+  border-radius: 30px;
+  font-size: 25px;
+  transition-duration: 0.3s;
+}
+#myBtn:hover {
+  outline: none;
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/*//////////////////////////////////////////////// Overlay //////////////////////////////////////////*/
+#Home-overlay {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.9);
+overflow-x: hidden;
+transition: 0.6s;
+cursor: pointer;
+}
+#Home-overlays-overlay {
+height: 100%;
+width: 0%;
+position: fixed;
+z-index: 2;
+top: 0;
+right: 0;
+background-color: rgb(255, 255, 255);
+overflow-x: hidden;
+transition: 0.6s;
+transition-delay: 0.4s;
+cursor: pointer;
+}
+#Home-overlays-overlay2 {
+height: 0%;
+width: 13rem;
+position: fixed;
+z-index: 3;
+bottom: 0;
+right: 0;
+background-color: rgba(170, 63, 63, 0);
+overflow-x: hidden;
+transition: 0.6s;
+transition-delay: 0s;
+cursor: pointer;
+}
+.Home-overlays-overlay-group{
+  width:100%;height:fit content;color: black;
+}
+.Home-overlays-overlay-button {
+margin-left: 85%;
+margin-top: 5%;
+background-color: transparent;
+border: transparent;
+font-size: 30px;
+color: rgb(168, 168, 168);
+cursor: pointer;
+}
+.Home-overlays-overlay-button:hover {
+color: rgb(0, 0, 0);
+}
+.Home-overlays-overlay-img {
+margin-top: 10%;
+margin-left: 25%;
+width: 50%;
+}
+.Home-overlays-overlay-h2 {
+text-align: center;
+font-size: 30px;
+font-family: "Philosopher", sans-serif;
+}
+.Home-overlays-overlay-p {
+width: 80%;
+margin-left: 10%;
+text-align: center;
+font-size: 16px;
+font-family: "Heebo", sans-serif;
+}
+.Home-overlays-overlay-icon-group {
+width: 100%;
+height: fit-content;
+text-align: center;
+margin-top: 5%;
+}
+#Home-overlays-overlay-icon {
+padding-left: 4%;
+padding-right: 4%;
+cursor: pointer;
+}
+/* ............................................................................................................................... */
+/* ............................................................................................................................... */
+/* .........................................................Header................................................................ */
+/* ............................................................................................................................... */
+/* ............................................................................................................................... */
+
+.nav-text-style{
+  /* margin: 1.6rem 1rem ; */
+  font-weight: 600; font-size:0.75rem;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  color: white;
+}
+.nav-text-style:hover{
+  color: rgb(220, 20, 20);
+}
+.header-nav-dropdown{
+  padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;
+  color: black;
+}
+.header-nav-dropdown:hover{
+  color: rgb(220, 20, 20);
+}
+/* ............................................................................................................................... */
+/* ............................................................................................................................... */
+/* .........................................................Footer................................................................ */
+/* ............................................................................................................................... */
+/* ............................................................................................................................... */
+
+.footer-background-img{
+  background-image: url(Images/footer/background.jpg),
+  linear-gradient(175deg, #00000088 30%, #31313144 100%);
+  background-repeat: no-repeat;
+  height:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+/* position: relative; */
+}
+.footer-logo-image{
+  position: relative;
+  top: -50px;
+}
+.footer-container-search-button{
+  font-size:0.75rem;background-color:rgb(220,20,20);padding:0.5rem 0.7rem;
+}
+.footer-container-search-input{
+  font-size:0.75rem;;padding:0.5rem 0.5rem;
+}
+.footer-container-contact{
+  font-weight:600;
+  color: white;
+  transition-duration: 0.4s;
+}
+.footer-container-contact:hover{
+  color: rgb(220, 20, 20);
+}
+.footer-container-reservation-btn{
+  font-family: 'Heebo' , sans-serif;font-size: 0.8rem; padding:4.5% 14%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(220,20,20);color: white;
+}
+.footer-container-reservation-btn:hover{
+  background-color: rgb(220,20,20);
+}
+.footer-container-share-icons{
+  border-radius: 1.5rem;border: 1px solid grey;background-color: rgba(255, 255, 255, 0);transition-duration:0.4s;
+}
+.footer-container-share-icons:hover{
+  background-color: rgb(220, 20, 20);
+}
+.footer-navbar-items{
+  padding: 1.25rem 0;font-size: 0.85rem;color: white;
+}
+.footer-navbar-items:hover{
+  color: rgb(220, 20, 20);
+}
+.footer-navbar-item-a{
+  font-family: 'Heebo', sans-serif;color: white;transition-duration: 0.4s;
+}
+.footer-navbar-item-a:hover{
+  color: rgb(220, 20, 20);text-decoration: none;
+}
+.footer-navbar-item-a-dropmenu-item{
+  padding:0.6rem 0.8rem;border-bottom:1px solid rgb(217, 217, 217);font-weight: 600;font-size: 0.78rem;;font-family: 'Heebo', sans-serif;
+}
+/* ................................................................................................................................. */
+/* ................................................................................................................................. */
+/* .............................................................Homepage............................................................ */
+/* ................................................................................................................................. */
+/* ................................................................................................................................. */
+
+/*/////////////////////////////////////////// homepage :section1 ///////////////////////////////////////*/
+.page1-homepage-section1-background{
+  background-image: url('Images/Homepage/Screen1/3.jfif'),linear-gradient(180deg, #000000b0 30%, #31313141 100%);
+  background-repeat: no-repeat,no-repeat;
+  background-position: center; background-size: cover; height: cover;
+  background-blend-mode: darken;
+}
+.page1-homepage-section1-btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(220,20,20);
+  color: rgb(255, 255, 255);
+}
+.page1-homepage-section1-btn:hover{
+  background-color: rgb(220,20,20);
+  border: 3px solid rgb(220,20,20);
+  color: white;
+  text-decoration:none;
+}
+.page1-homepage-section1-container2-p{
+  font-family:'Charmonman', cursive;font-size: 1.5rem;
+}
+.page1-homepage-section1-container2-h1{
+  font-family:'Philosopher', sans-serif;font-size:5rem;
+}
+.page1-homepage-section1-container2-mx-auto-p{
+  padding:0 18%;font-size: 0.8rem;font-weight: 600;color: rgb(241, 241, 241);
+}
+.page1-homepage-section1-footer-div{
+  font-weight: 400;font-size: 0.8rem;font-weight: 600;
+}
+.page1-homepage-section1-footer-div-span{
+  color: rgb(170, 170, 170);padding: 0 0.5rem;
+}
+
+/*//////////////////////////////////////// homepage :section2 //////////////////////////////////////////////////////////////////*/
+.page1-homepage-section2-subhead{
+  font-family:'Charmonman', cursive;font-size: 1rem;font-weight:600;
+}
+.page1-homepage-section2-head{
+  font-family:'Philosopher', sans-serif;
+}
+.page1-homepage-section2-detailes{
+  text-align: left;font-family: 'Heebo', sans-serif;font-size: 0.72rem;font-weight: 400;color: rgb(200, 200, 200);
+}
+/*///////////////////////////////////////// homepage :section3 ///////////////////////////////////*/
+.page1-homepage-section3-subhead{
+  font-family:'Charmonman', cursive;font-size: 1rem;font-weight:600;
+}
+.page1-homepage-section3-head{
+  font-family:'Philosopher', sans-serif;font-size: 2rem;
+}
+.page1-homepage-section3-detailes{
+  font-family: 'Heebo', sans-serif;font-size: 0.72rem;font-weight: 400;
+}
+.page1-homepage-section3-carousel {
+  width: 55%;
+  padding:0 5%;
+  height: 400px;
+  margin-right: 0px;
+}
+
+.page1-homepage-section3-card-button{
+  font-family: 'Heebo', sans-serif;font-size: 19px;color: white;transition-duration: 0.3s; font-weight:700;text-decoration: none;
+}
+.page1-homepage-section3-card-button:hover{
+  color: rgb(220, 20, 20);text-decoration: none;
+}
+.page1-homepage-section3-card-head{
+  font-family:'Philosopher', sans-serif;font-size: 25px;color: white;transition-duration: 0.3s; font-weight:700;
+}
+.page1-homepage-section3-card-head:hover{
+  color: rgb(220, 20, 20);
+}
+.page1-homepage-section3-card-detailes{
+  text-align: left;font-family: 'Heebo', sans-serif;font-size: 0.72rem;font-weight: 400;color: rgb(255, 255, 255);
+}
+
+/*/////////////////////////////////////////// homepage :section4 /////////////////////////////////////////*/
+.page1-homepage-section4-subhead{
+  font-family:'Charmonman', cursive;font-size: 1rem;font-weight:600;
+}
+.page1-homepage-section4-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.2rem;
+}
+.page1-homepage-section4-card{
+  background-color: #242c357c;border: 1px solid rgb(56, 56, 56);padding:0.5rem 0;
+}
+.page1-homepage-section4-card-button{
+  margin: 0;padding: 0;display: flex;
+  justify-content: center;align-items: center;background-color: transparent;
+  color: rgb(255, 255, 255);text-decoration: none;font-family:'Philosopher', sans-serif;
+}
+.page1-homepage-section4-card-head{
+  margin: 0;padding: 0;
+  font-size: 1.2rem;transition-duration: 0.4s;
+  color:white;
+}
+.page1-homepage-section4-card-head:hover{
+  color: rgb(220, 20, 20);
+  text-decoration:none;
+}
+.page1-homepage-section4-card-img{
+  width: 3rem;filter: invert();
+}
+.page1-homepage-section4-card-body{
+  padding:0.5rem 0.75rem;border-bottom: 1px solid #3847557c;
+}
+.page1-homepage-section4-card-body-a{
+  color: white;transition-duration: 0.5s;
+  font-family:'Philosopher', sans-serif;
+}
+.page1-homepage-section4-card-body-a:hover{
+  color: rgb(220,20,20);
+  text-decoration: none;
+}
+.page1-homepage-section4-card-body-price{
+  color:rgb(220,20,20);font-family:'Philosopher', sans-serif;
+}
+.page1-homepage-section4-card-body-detailes{
+  font-size: 0.6rem;font-weight: 600;color: rgb(197, 197, 197);
+}
+.page1-homepage-section4-btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(220,20,20);
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo' , sans-serif;font-size: 0.8rem; padding:1.7% 5%;
+}
+.page1-homepage-section4-btn:hover{
+  background-color: rgb(220,20,20);
+  text-decoration:none;
+}
+/*/////////////////////////////////////////// homepage :section5 ///////////////////////////////////////////*/
+.page1-homepage-section5-background-img{
+background-image: url("Images/section5/background.jpg"), linear-gradient(to left, rgba(0, 0, 0, 0.404), rgba(255, 255, 255, 0));
+background-repeat: no-repeat;
+background-position: center;
+height: 25rem;
+background-blend-mode: normal;
+}
+.page1-homepage-section5-content{
+  background-color: rgba(78, 46, 46, 0.185);padding:6% 8%;border-radius: 0.3rem;
+}
+.page1-homepage-section5-content-subhead{
+  font-family:'Charmonman', cursive;font-size: 1.2rem;font-weight:600;
+}
+.page1-homepage-section5-content-head{
+  font-size:2.4rem;font-family:'Philosopher', sans-serif;
+}
+.page1-homepage-section5-content-detailes{
+  font-size: 0.75rem;color: rgb(224, 224, 224);padding:0.5rem 0 ;font-weight: 600;
+}
+.page1-homepage-section5-content-btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(220,20,20);
+  color: rgb(255, 255, 255);
+  font-family:'Heebo',sans-serif;font-size: 0.8rem; padding:3.5% 10%;
+}
+.page1-homepage-section5-content-btn:hover{
+  background-color: rgb(220,20,20);
+  text-decoration:none;
+}
+/*//////////////////////////////////////// homepage :section6 ////////////////////////////////////////*/
+.page1-homepage-section6-subhead{
+  font-family:'Charmonman', cursive;font-size: 1.2rem;font-weight:600;
+}
+.page1-homepage-section6-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.2rem;
+}
+.page1-homepage-section6-card-img{
+  border:none;
+  outline: none;
+  border-radius: 0;
+}
+.page1-homepage-section6-shop-head{
+  font-family:'Philosopher', sans-serif;margin-top: 13rem;color: white;text-decoration: none;
+  font-size: 1rem;
+}
+.page1-homepage-section6-shop-head:hover{
+  color: rgb(220,20,20);
+  text-decoration: none;
+}
+/*//////////////////////////////////////// homepage :section7 ////////////////////////////////////////*/
+.page1-homepage-section7-subhead{
+  font-family:'Charmonman', cursive;font-size: 1.1rem;font-weight:600;
+}
+.page1-homepage-section7-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.2rem;
+}
+.page1-homepage-section7-detailes{
+  font-family: 'Heebo', sans-serif;font-size: 0.8rem;font-weight: 300;color: rgb(233, 233, 233);
+}
+.page1-homepage-section7-btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(220,20,20);
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo' , sans-serif;font-size: 0.8rem; padding:3.5% 10%;
+}
+.page1-homepage-section7-btn:hover{
+  background-color: rgb(220,20,20);
+  border: 3px solid rgb(220,20,20);
+  color: white;
+  text-decoration:none;
+}
+.page1-homepage-section7-table{
+  border: 1px solid #464d53;background-color:#15181c;
+}
+.page1-homepage-section7-table-contain{
+  padding:0.8rem 1rem ;border-radius: 0.3rem;
+}
+.page1-homepage-section7-table-contain-h4{
+  font-family:'Philosopher', sans-serif;color: rgb(255, 255, 255);
+}
+.page1-homepage-section7-table-label{
+  font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;
+  
+}
+.page1-homepage-section7-table-label-star{
+  color: rgb(220,20,20) !important; display: inline; float: none;
+}
+.page1-homepage-section7-table-name-input{
+  width: 100%;padding:0.35rem 0.8rem;background-color:#15181c;border: 1px solid #464d53;outline: none;font-size:0.8rem
+}
+.page1-homepage-section7-table-submit{
+  border: 2px solid rgb(220,20,20);font-family:'Heebo',sans-serif;font-size: 0.8rem;background-color: transparent;
+}
+
+/*/////////////////////////////////////////////// homepage :section8 ///////////////////////////////////////////////*/
+.page1-homepage-section8-subhead{
+  font-family:'Charmonman', cursive;font-size: 1.2rem;font-weight:600;
+}
+.page1-homepage-section8-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.2rem;
+}
+.page1-homepage-section8-card{
+  width: 100%;border-radius:0;border:none;
+}
+.page1-homepage-section8-card-body{
+  border: none;
+  color: white;
+  background-color: rgb(36, 36, 36);
+}
+.page1-homepage-section8-card-body-head{
+  font-size:1.2rem;
+}
+.page1-homepage-section8-container{
+  border:1px solid rgb(220,20,20); background: rgb(220,20,20);
+}
+.page1-homepage-section8-container-subhead{
+  font-family:'Charmonman', cursive; font-size: 1.25rem;font-weight:600;
+}
+.page1-homepage-section8-container-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.2rem;
+}
+.page1-homepage-section8-container-detailes{
+  font-family: 'Heebo', sans-serif;font-size: 0.78rem;font-weight: 400;color: rgb(255, 255, 255);
+}
+.page1-homepage-section8-container-button{
+  font-family: 'Heebo' , sans-serif;font-size: 0.8rem; padding:6% 12%;
+  background-color: transparent;
+  border: 3px solid rgb(255, 255, 255);
+  color: white;
+}
+.page1-homepage-section8-container-button:hover{
+  background-color: rgb(220, 20, 20);
+  color: white;
+}
+.page1-homepage-section8-container-button-text{
+  text-decoration: none;color: white;
+}
+.page1-homepage-section8-container-button-text:hover{
+  text-decoration: none;color: white;
+}
+.page1-homepage-section8-contact-subhead{
+  font-family:'Charmonman', cursive;font-size: 1.2rem;font-weight:600;
+}
+.page1-homepage-section8-contact-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.2rem;
+}
+.page1-homepage-section8-contact-detailes-head{
+  font-family:'Philosopher', sans-serif;font-size: 1.1rem;color: rgb(220,20,20)
+}
+.page1-homepage-section8-contact-detailes-p{
+  font-family: 'Heebo' , sans-serif;font-size: 0.95rem;
+}
+.page1-homepage-section8-contact-detailes-btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(220,20,20);
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo' , sans-serif;font-size: 0.8rem; padding:3.5% 10%;
+}
+.page1-homepage-section8-contact-detailes-btn:hover{
+  background-color: rgb(220,20,20);
+  color: white;
+  text-decoration:none;
+}
+#page1-homepage-section8-googleMap{
+  width: 100%;
+  height:100%;
+  padding: 12rem 0;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* //////////////////////////////////////////////COMMON/////////////////////////////////////////////////////////// */
+.page-section1-background{
+  background-image: url('Images/page2/sitedata/banner4.jpg'),linear-gradient(45deg, #15181c 30%, #15181c7c 60%, #15181c00 90%);
+  /* background-image: url('Images/page2/sitedata/banner4.jpg'),linear-gradient(180deg, #000000b0 30%, #31313141 100%); */
+  background-repeat: no-repeat,no-repeat;background-position: center;
+  background-size: cover; height: 100vh;
+  background-blend-mode: darken;
+}
+.page-section1-head{
+  margin:0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-section1-head-text{
+  margin:7rem 0;
+  padding:0 10%;
+  font-size: 10vw;
+  font-family:'Philosopher', sans-serif;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ..................................... */
+/* ..................................... */
+/* ................Page 2............... */
+/* ..................................... */
+/* ..................................... */
+
+.page2-homepage-section2-subhead{
+  font-family:'Permanent Marker',cursive;font-size: 1rem;color:rgb(220,20,20);
+}
+.page2-homepage-section2-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.7rem;
+}
+.page2-homepage-section2-card{
+  padding:0.5rem 0.4rem ;border-bottom: 1px solid #3847557c;
+}
+.page2-homepage-section2-card-img{
+  width: 100%;border-radius: 0.5rem;
+}
+.page2-homepage-section2-card-recomended{
+  border-radius:1rem ;margin: 0;padding: 0 0.5rem;font-size:0.6rem;color: rgb(255, 255, 255);border: 1px solid rgb(220,20,20);width: fit-content; background-color: rgb(220,20,20);font-weight: 600;
+}
+.page2-homepage-section2-card-head{
+  font-family:'Philosopher', sans-serif;margin: 0; padding:0;color: white;transition-duration:0.4s;
+}
+.page2-homepage-section2-card-head:hover{
+  color: rgb(220, 20, 20);
+}
+.page2-homepage-section2-card-price{
+  color:rgb(220,20,20);font-family:'Philosopher', sans-serif;
+}
+.page2-homepage-section2-card-detailes{
+  color: rgb(230,230,230);font-size: 0.7rem;margin: 0; padding:0;
+}
+
+/* ..................................... */
+/* ..................................... */
+/* ................Page 3............... */
+/* ..................................... */
+/* ..................................... */
+.page3-section2-sorting{
+  font-size: 0.75rem;font-weight: 600;padding:0.5rem 0;
+}
+.page3-section2-sorting-dropdown{
+  border-radius: 2rem;font-size: 0.75rem;font-weight: 600;padding:3.5% 5% ;background-color: #242c35;border: 1px solid grey;
+}
+.page3-section2-card-btn{
+    background-color: rgba(220, 20, 20, 0) ;
+    text-decoration:none;
+    border-radius:2rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+}
+.page3-section2-card-btn:hover{
+    background-color: rgb(220,20,20) ;
+    text-decoration:none;
+    border-radius:2rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+}
+.page3-section2-card-btn-text{
+    color: rgba(255, 255, 255, 0);
+}
+.page3-section2-card-btn-text:hover{
+    color: white;
+    text-decoration:none;
+}
+.page3-section2-card-head{
+  font-size: 1rem;font-family:'Philosopher', sans-serif;margin: 0;
+}
+.page3-section2-card-p{
+  margin:0;font-size:0.7rem; font-weight:600;
+}
+/* ..................................... */
+/* ..................................... */
+/* .............Page4-About............. */
+/* ..................................... */
+/* ..................................... */
+.page4-section2-content{
+  background-color: rgba(78, 46, 46, 0.185);padding:6% 8%;border-radius: 0.3rem;
+}
+.page4-section2-content-subhead{
+  font-size:1res;font-family:'Permanent Marker',cursive;color: rgb(220,20,20);margin: 0;
+}
+.page4-section2-content-head{
+  font-size:2rem;font-family:'Philosopher', sans-serif;
+}
+.page4-section2-content-detailes{
+  font-size: 15px;color: rgb(224, 224, 224);padding:0.55rem 0 ;
+}
+.page4-section2-content-button{
+  font-size:0.5rem;padding:0.75rem 1.25rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;
+}
+#page4-section2-content-video-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 910;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.page4-section2-content-video-overlay-video-play {
+    width: 70%;
+    height: 75%;
+    margin: 5% 15%;
+}
+.page4-section3-background{
+  background-image: url("Images/page4/detailes-background-02-removebg-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: cover;
+  background-size: 100%;
+}
+.page4-section3-burger{
+  position: relative;
+  padding: 5rem 0;
+  animation: myfirst 5s infinite;
+  animation-direction: alternate;
+  z-index: 510;
+  width:95%;
+}
+@keyframes myfirst {
+0%   {left: 0px; top: 0px;}
+50%  {left: 30px; top: 0px;}
+100%  {left: 0px; top: 0px;}
+}
+
+.page4-section4-background{
+  background-image: url("Images/page4/team/team_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:2rem 0;
+}
+.page4-section4-subhead{
+  font-family:'Permanent Marker',cursive;font-size: 1rem;color:rgb(220,20,20);
+}
+.page4-section4-head{
+  font-family:'Philosopher', sans-serif;font-size: 2rem;
+}
+.page4-section4-card{
+  background-color: #15181c;
+}
+.page4-section4-card:hover{
+  background-color:#22272e;
+}
+.page4-section4-card-img{
+  border-radius: 10rem; width: 70%;margin: 15% 15% 0 15%;
+}
+.page4-section4-card-body-h4{
+  font-size:1rem;font-weight:700;
+}
+.page4-section4-card-body-p{
+  font-size:0.8rem;color:rgb(179, 179, 179)
+}
+.page4-section4-card-body-icon{
+  padding: 0 0.5rem;font-size:0.8rem
+}
+.page4-section4-btns{
+  font-size:0.3rem;padding:0.75rem 1.25rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;
+}
+.page4-section4-btns-text{
+  color: white;
+}
+.page4-section4-btns-text:hover{
+  color: white;
+  text-decoration: none;
+}
+.page4-section4-carousel {
+  width: 100%;
+  height: fit-content;
+  /* margin-right: 10px; */
+  /* padding: 2rem 0; */
+  /* background: #8C8; */
+  /* border-radius: 5px; */
+  /* counter-increment: carousel-cell; */
+}
+.page4-section4-carousel:before {
+  display: block;
+  /* text-align: center; */
+  /* content: counter(carousel-cell); */
+  /* line-height: 200px; */
+  /* font-size: 80px; */
+  /* color: rgb(255, 255, 255); */
+}
+.page4-section5-subhead{
+  font-family:'Permanent Marker',cursive;font-size: 1rem;color:rgb(220,20,20);
+}
+.page4-section5-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.7rem;
+}
+.page4-section5-carousel-content{
+  background-color: #242c357c;
+}
+.page4-section5-carousel-content-i{
+  font-size: 3.5rem;color: rgb(195, 195, 195);
+}
+.page4-section5-carousel-content-quote{
+  font-size:1.15rem;font-weight:600;padding-top:0.4rem;
+}
+.page4-section5-carousel-content-name{
+  font-size:1.2rem;font-weight: 700;margin: 0;
+}
+.page4-section5-carousel-content-post{
+  font-size:0.8rem;margin:0;padding: 0;
+}
+
+/* ...........................................................page5........................................................... */
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-Team.............. */
+/* ..................................... */
+/* ..................................... */
+.page5-team-subhead{
+  font-family: 'Permanent Marker',cursive;font-size: 1rem;color:rgb(220,20,20);
+}
+.page5-team-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.7rem;
+}
+.page5-team-card{
+  background-color: #1b202500;
+  width:100%;border: 1px solid #1b2025;
+  color: white;transition-duration: 0.4s;
+}
+.page5-team-card:hover{
+  color: rgb(220, 20, 20);background-color: #1b2025d2;
+}
+.page5-team-card-img{
+  border-radius: 10rem; width: 70%;margin: 15% 15% 0 15%;
+}
+.page5-team-card-body-name{
+  font-size:25px;font-weight:700;
+}
+.page5-team-card-body-post{
+  font-size:0.8rem;color:rgb(179, 179, 179)
+}
+.page5-team-card-body-icon{
+  padding: 0 0.5rem;font-size:0.8rem;text-decoration: none;color: white;transition-duration: 0.4s;
+}
+.page5-team-card-body-icon:hover{
+  text-decoration: none;color: rgb(220, 20, 20);
+}
+
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-Contact........... */
+/* ..................................... */
+/* ..................................... */
+.pages5-contact-section2-blocks{
+  width: 100%;height:12rem;color: rgb(195, 195, 195);background-color: #242c3500;border-radius: 0.4rem;transition-duration: 0.5s;
+}
+.pages5-contact-section2-blocks:hover{
+  background-color: #242c357c;box-shadow: 0 4px 8px 0 #151b2000, 0 6px 20px 0 #151b2000;
+}
+/* ............................... */
+.pages5-contact-section2-block1-head{
+  font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.5rem;
+}
+.pages5-contact-section2-block1-phone{
+  font-family: 'Heebo', sans-serif;font-weight: 700;color: rgb(220,20,20);font-size: 1.2rem;
+}
+.pages5-contact-section2-block1-others{
+  color: rgb(195, 195, 195);font-size: 0.6rem;
+}
+/* ......... */
+.pages5-contact-section2-block2-icon{
+  font-size:2.5rem;color: rgb(220,20,20);
+}
+.pages5-contact-section2-block2-head{
+  font-family: 'Heebo', sans-serif;font-weight: 700;
+}
+.pages5-contact-section2-block2-others{
+  color: rgb(195, 195, 195);font-size: 0.6rem
+}
+/* ......... */
+.pages5-contact-section2-block3-head{
+  font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;
+}
+.pages5-contact-section2-block3-others{
+  color: rgb(195, 195, 195);font-size: 0.6rem;
+}
+/* .............................. */
+.pages5-contact-section3-head{
+  font-size: 1.1rem;font-weight: 700;
+}
+.pages5-contact-section3-input{
+  width: 100%;font-size:0.8rem;font-weight: 700; background-color: rgba(240, 248, 255, 0);border: 1px solid rgb(182, 182, 182);border-radius: 0.25rem;
+}
+.page5-contact-section3-btn{
+  font-size:0.3rem;padding:0.65rem 1.15rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;
+}
+.page5-contact-section3-btn-text{
+  color:white;
+}
+.page5-contact-section3-btn-text:hover{
+  text-decoration: none;
+  color: white;
+}
+#page5-contact-section3-googleMap{
+  width: 100%;
+  height: 23rem;
+  padding: 12rem 0;
+}
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-Gallery........... */
+/* ..................................... */
+/* ..................................... */
+.page5-Gallery-section2-subhead{
+  font-family: 'Permanent Marker',cursive; font-size: 1rem;color:rgb(220,20,20);
+}
+.page5-Gallery-section2-head{
+  font-family:'Philosopher', sans-serif;font-size: 2.7rem;
+}
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-Shop.............. */
+/* ..................................... */
+/* ..................................... */
+.page5-shop-text-result{
+  font-size: 0.75rem;font-weight: 600;padding:0.5rem 0;
+}
+.page5-shop-text-dropdown{
+  border-radius: 2rem;font-size: 0.75rem;font-weight: 600;background-color: #242c35;border: 1px solid grey;
+}
+.page5-shop-card-overlay-button{
+  background-color: rgba(220, 20, 20, 0);
+  border-radius:2rem;
+  padding: 0.3rem 1rem;
+  margin-top: 5rem;
+  font-size: 0.1rem;
+  color: rgba(255, 255, 255, 0);
+  transition-duration: 0.4;
+}
+.page5-shop-card-overlay-button:hover{
+  background-color: rgb(220,20,20);
+  color: white;
+  text-decoration:none;
+  font-size: 0.8rem;
+}
+.page5-shop-card-head{
+  font-size: 0.9rem;font-family:'Philosopher', sans-serif;margin: 0;color: white;
+}
+.page5-shop-card-head:hover{
+  color: rgb(220, 20, 20);
+}
+.page5-shop-card-price{
+  margin:0;font-size:0.7rem; font-weight:600;
+}
+.page5-shop-side-head{
+  font-family:'Philosopher', sans-serif;font-size: 1rem;
+}
+.page5-shop-side-head-hr{
+  border-top:3px solid rgb(220,20,20); width: 3rem;
+}
+.page5-shop-side-card-img{
+  width: 3.8rem;height:3.8rem;border-radius: 0.5rem;float: left;
+}
+.page5-shop-side-card-p{
+  font-size:0.75rem;font-weight: 600;float: left;
+}
+.page5-shop-side-card-price{
+  font-size:0.75rem;color:rgb(172, 172, 172);float: left;font-weight: 600;
+}
+.page5-shop-side-card-hr{
+  border-top:2.5px dotted rgb(75, 75, 75);padding: 0;
+}
+
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-Acc............... */
+/* ..................................... */
+/* ..................................... */
+.page5-myacc-section2-head{
+  font-family:'Philosopher', sans-serif;color: rgb(211, 211, 211);
+}
+.page5-myacc-section2-content{
+  padding:0.8rem 1rem ;border: 1px solid rgb(255, 255, 255);border-radius: 0.3rem;
+}
+.page5-myacc-section2-content-label{
+  font-size:0.8rem;color:rgb(214, 214, 214);
+}
+.page5-myacc-section2-content-btn{
+  color: rgb(78, 78, 78);font-size: 0.7rem;font-weight: 700;
+}
+/* ......... */
+.page5-myacc-section2-search-input{
+  border: none;background-color: #242c357c;font-size: 0.8rem;font-weight: 700;
+}
+.page5-myacc-section2-search-btn{
+  background-color: rgb(220,20,20);border: none;font-size: 0.8rem;
+}
+.page5-myacc-section2-content-head{
+  font-family:'Philosopher', sans-serif;font-size: 1rem;
+}
+.page5-myacc-section2-content-head-hr{
+  border-top:3px solid rgb(220,20,20); width: 3rem;
+}
+.page5-myacc-section2-content-text{
+  font-size:0.75rem;color:rgb(214, 214, 214);text-decoration: none;
+}
+.page5-myacc-section2-content-text:hover{
+  text-decoration: none;color:rgb(214, 214, 214);
+}
+.page5-myacc-section2-content-text-hr{
+  border-top:2.5px dotted rgb(75, 75, 75);padding: 0;
+}
+
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-checkout.......... */
+/* ..................................... */
+/* ..................................... */
+.pages5-checkout-coupon{
+  background-color:#242c357c;font-size: 0.75rem;
+}
+.pages5-checkout-content{
+  padding:0.8rem 1rem ;border-radius: 0.3rem;
+}
+.pages5-checkout-content-head{
+  font-family:'Philosopher', sans-serif;color: rgb(255, 255, 255);
+}
+.pages5-checkout-content-label{
+  font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;
+}
+.pages5-checkout-content-label-star{
+  color: rgb(220,20,20) !important; display: inline; float: none;
+}
+.pages5-checkout-content-input{
+  width: 100%;padding:0.35rem 0.8rem;background-color: #242c357c;border: none;outline: none;font-size:0.8rem;
+}
+.pages5-checkout-table-head{
+  font-family:'Philosopher', sans-serif;color: rgb(255, 255, 255);
+}
+.pages5-checkout-table{
+  width: 100%;
+}
+.pages5-checkout-table th,
+.pages5-checkout-table td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.pages5-checkout-table th,
+.pages5-checkout-table td {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 0.7rem;
+}
+.pages5-checkout-table-placeorder-btn{
+  font-size:0.3rem;padding:0.55rem 1.15rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;
+}
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-cart.............. */
+/* ..................................... */
+/* ..................................... */
+.pages5-cart-btn{
+  font-size:0.3rem;padding:0.55rem 1.15rem;border-radius: 2rem;background-color:rgb(220,20,20);border: none;font-weight: 700;
+}
+/* ..................................... */
+/* ..................................... */
+/* .............Pages-FAQ............... */
+/* ..................................... */
+/* ..................................... */
+.pages5-faq-card{
+  background-color: rgba(240, 248, 255, 0);color: rgb(255, 255, 255);
+}
+.pages5-faq-card-body{
+  font-size:0.85rem;color:rgb(211,211,211)
+}
+.pages5-faq-side{
+  width: 100%; height:fit-content;background-color: #242c357c;padding: 1.8rem;border-radius: 0.5rem;
+}
+.pages5-faq-side h3{
+  font-size:1.1rem;font-weight: 700;
+}
+.pages5-faq-side p{
+  font-size:0.8rem;color: rgb(195, 195, 195);padding: 0.5rem 0;
+}
+.pages5-faq-side button{
+  font-size:0.3rem;padding:0.65rem 1.15rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;
+}
+.pages5-faq-side-brochure-btn{
+  font-size: 0.9rem;font-weight:700;background-color: #242c357c;border: none;
+}
+
+/* .......................................................................................................................... */
+/* ..................................... */
+/* ..................................... */
+/* ................NEWS................. */
+/* ..................................... */
+/* ..................................... */
+.page6-section2-card-content{
+  background-color: #1a2027;
+}
+.page6-section2-card-content-text{
+  font-family: 'Heebo', sans-serif;font-size: 0.8rem;color: #D5D5D5;transition-duration: 0.4s;
+}
+.page6-section2-card-content-text:hover{
+  color: rgb(220, 20, 20);text-decoration: none;
+}
+.page6-section2-card-content-detailes{
+  font-family: 'Heebo', sans-serif;font-size: 0.8rem;color: #D5D5D5;
+}
+.page6-section2-card-content-head{
+  font-family: 'Heebo', sans-serif;font-weight: 700;
+}
+.page6-section2-card-content-head a{
+  color: white;transition-duration: 0.4s;
+}
+.page6-section2-card-content-head a:hover{
+  color: rgb(220, 20, 20); text-decoration: none;
+}
+
+/*.......... Common in all News, News1, News2, News3.......... */
+.page6-section2-search-input{
+  border: none;background-color: #242c357c;font-size: 0.8rem;font-weight: 700;
+}
+.page6-section2-search-btn{
+  background-color: rgb(220,20,20);border: none;font-size: 0.8rem;
+}
+.page6-section2-content-head{
+  font-family:'Philosopher', sans-serif;font-size: 1rem;
+}
+.page6-section2-content-head-hr{
+  border-top:3px solid rgb(220,20,20); width: 3rem;
+}
+.page6-section2-content-text{
+  font-size:0.75rem;color:rgb(214, 214, 214);text-decoration: none;
+}
+.page6-section2-content-text:hover{
+  text-decoration: none;color:rgb(214, 214, 214);
+}
+.page6-section2-content-text-hr{
+  border-top:2.5px dotted rgb(75, 75, 75);padding: 0;
+}
+/*.......... Common in all News, News1, News2, News3.......... */
+
+/*......................NEWS - Others Pages................... */
+.page6-blog-section2-text{
+  font-family: 'Heebo', sans-serif;font-size: 0.75rem;color: #D5D5D5
+}
+.page6-blog-section2-next-previous{
+  font-family:'Philosopher', sans-serif;font-size:1rem;
+}
+.page6-blog-section2-next-previous-btn{
+  font-family: 'Heebo', sans-serif;font-size:0.75rem;
+}
+.page6-blog-section2-feedback-head{
+  font-family:'Philosopher', sans-serif;color: rgb(255, 255, 255);
+}
+.page6-blog-section2-feedback-note{
+  font-size:0.4rem;color: #D5D5D5;
+}
+.page6-blog-section2-feedback-labels{
+  font-size:0.75rem;color:rgb(187, 187, 187);font-weight: 600;
+}
+.page6-blog-section2-feedback-labels-star{
+  color: rgb(220,20,20) !important; display: inline; float: none;
+}
+.page6-blog-section2-feedback-input{
+  width: 100%;padding:0.35rem 0.8rem;background-color: #242c357c;border: none;outline: none;font-size:0.8rem
+}
+.page6-blog-section2-feedback-submit{
+  font-size:0.3rem;padding:0.65rem 1.15rem;border-radius: 2rem;background-color: rgb(220,20,20);border: none;font-weight: 700;
+}

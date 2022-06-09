@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required Icons -->
+    <!-- <link rel="stylesheet" href="/Fontawesome/fontawesome-free-5.15.3-web/css/all.css"> -->
+    <script src="https://kit.fontawesome.com/5699b6b2cf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <!-- Required Fonts -->
+    <!-- Philosopher -->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!-- Charmanmon -->
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
+    <!-- Heebo 400 and 600 -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap" rel="stylesheet">
+    <!-- Permanent Marker -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+
+    <title>TakesAway.com/pages/team</title>
+    <!-- font-family:'Philosopher', sans-serif; -->
+    <!-- font-family:'Charmonman', cursive; -->
+    <!-- font-family: 'Heebo', sans-serif; -->
+    <!-- font-family: 'Barlow', sans-serif; -->
+    <!-- font-family: 'Permanent Marker',cursive; -->
+    <!-- color: rgb(220, 20, 20); -->
+
+</head>
+
+<body style="background-color: #15181c;">
+    <!-- SideCart Button -->
+    <div class="sidecart-button">
+        <div class="sidecart-button-icon"><i class="fas fa-shopping-cart" style="margin-top: 25px;color: white;"></i>
+        </div>
+        <p class="sidecart-button-content">No Product in the Cart</p>
+    </div>
+    <!--on the top-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- Section 1 -->
+    <!-- 1.Home overlay -->
+    <!-- 2.Navbar -->
+    <!-- 3.Heading -->
+    <div class="bg-image page-section1-background">
+        <div id="Home-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
+            <div id="Home-overlays-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
+                <div id="Home-overlays-overlay2" onclick="nav3_close(),nav2_close(),nav1_close()">
+                    <div class="Home-overlays-overlay-group">
+                        <button class="Home-overlays-overlay-button">
+                            <i class="far fa-times-circle"></i>
+                        </button>
+                        <img src="Images/Homepage/Screen1/logo2.png" alt="Image" class="Home-overlays-overlay-img">
+                        <h2 class="Home-overlays-overlay-h2">Welcome Chase flavor</h2>
+                        <p class="Home-overlays-overlay-p">As well known and we are very busy all days advice you. Us of
+                            before arriving, so we can guarantee your seat. Us of before arriving, so we very busy all
+                            days advice you. Us of before arriving, so we can guarantee your seat. Us of before
+                            arriving, so we can.</p>
+                        <div class="Home-overlays-overlay-icon-group">
+                            <i class="fab fa-facebook-f" id="Home-overlays-overlay-icon"></i>
+                            <i class="fab fa-twitter" id="Home-overlays-overlay-icon"></i>
+                            <i class="fab fa-instagram" id="Home-overlays-overlay-icon"></i>
+                            <i class="fab fa-linkedin-in" id="Home-overlays-overlay-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <?php include'header.php'?> -->
+        <nav class="navbar navbar-expand-lg py-0">
+            <button class="navbar-toggler collapsed border-0 py-0" type=" button" data-toggle="collapse"
+                data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false"
+                aria-label="Toggle navigation" style="outline: none;filter:invert()"><i class="fas fa-bars"></i>
+            </button>
+            <button class="text-light Home-menu-icon-combination my-2 my-lg-4"
+                onclick="nav1_open(),nav2_open(),nav3_open()"
+                style="border: transparent; background-color: transparent;outline: none;"><i class="fas fa-bars"></i>
+            </button>
+            <div class="navbar-collapse justify-content-lg-center collapse" id="navbarsExample10">
+                <ul class="navbar-nav mr-lg-4">
+                    <li class="nav-item my-2 my-lg-4 mx-3" id="home">
+                        <a href="index.html" class="nav-link nav-text-style">HOME</a>
+                    </li>
+                    <li class="nav-item my-2 my-lg-4 mx-3" id="menu">
+                        <a href="menu.html" class="nav-link nav-text-style">MENU</a>
+                    </li>
+                    <li class="nav-item my-2 my-lg-4 mx-3" id="catering">
+                        <a href="catering.html" class="nav-link nav-text-style">
+                            CATERING</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <img src="images/Homepage/Screen1/logo.png" style="width:7rem">
+                    </li>
+                    <li class="nav-item my-2 my-lg-4 mx-3" id="about">
+                        <a href="about.html" class="nav-link nav-text-style">
+                            ABOUT</a>
+                    </li>
+                    <li class="nav-item my-2 my-lg-4 mx-3 dropdown" id="pages">
+                        <a class="nav-link dropdown-toggle nav-text-style" href="#" id="dropdown10"
+                            data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">PAGES</a>
+                        <div class="dropdown-menu rounded-0" aria-labelledby="dropdown10">
+                            <a class="dropdown-item header-nav-dropdown" href="pages-team.html">TEAM</a>
+                            <a class="dropdown-item header-nav-dropdown" href="pages-contact.html">CONTACT</a>
+                            <a class="dropdown-item header-nav-dropdown" href="pages-gallery.html">GALLERY</a>
+                            <a class="dropdown-item header-nav-dropdown" href="pages-shop.html">SHOP</a>
+                            <a class="dropdown-item header-nav-dropdown" href="pages-myacc.html">MY ACCOUNT</a>
+                            <a class="dropdown-item header-nav-dropdown" href="pages-checkout.html">CHECKOUT</a>
+                            <a class="dropdown-item header-nav-dropdown" href="pages-cart.html">CART</a>
+                            <a class="dropdown-item header-nav-dropdown border-0" href="pages-faq.html">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item my-2 my-lg-4 mx-3" id="news">
+                        <a href="news.html" class="nav-link nav-text-style">
+                            NEWS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <script>
+            function nav1_open() {
+                document.getElementById("Home-overlay").style.width = "100%";
+            }
+            function nav1_close() {
+                document.getElementById("Home-overlay").style.width = "0%";
+            }
+            function nav2_open() {
+                document.getElementById("Home-overlays-overlay").style.width = "13rem";
+            }
+            function nav2_close() {
+                document.getElementById("Home-overlays-overlay").style.width = "0%";
+            }
+            function nav3_open() {
+                document.getElementById("Home-overlays-overlay2").style.height = "100%";
+            }
+            function nav3_close() {
+                document.getElementById("Home-overlays-overlay2").style.height = "0%";
+            }
+        </script>
+        <div class="page2-heading page-section1-head">
+            <h1 class="display-1 text-light text-center page-section1-head-text">TEAM</h1>
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="container py-5">
+        <div class="row pt-2">
+            <div class="col text-center">
+                <p class="fs-3 py-0 my-0 d-inline page5-team-subhead">TEAM</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center" style="margin: 0; padding: 0;">
+                <h2 class="display-6 py-0 my-0 text-light page5-team-head">
+                    Behind the taste
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image1 Cropped.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            Jonathan
+                            Rodriguez</h4>
+                        <p class="card-text text-center page5-team-card-body-post">Founder &
+                            CEO</p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" hraf="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" hraf="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image2 Cropped.png"
+                        alt="Card image">
+                    <div class=" card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            William
+                            Huffington</h4>
+                        <p class="card-text text-center page5-team-card-body-post">Food
+                            Manager
+                        </p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image3 Cropped.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            Santiago
+                            Giménez</h4>
+                        <p class="card-text text-center page5-team-card-body-post">Bar
+                            Manager
+                        </p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image1 Cropped.png"
+                        alt="Card image">
+                    <div class=" card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            Jonathan
+                            Rodriguez</h4>
+                        <p class="card-text text-center page5-team-card-body-post">
+                            Founder & CEO</p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image1 Cropped.png"
+                        alt="Card image">
+                    <div class=" card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            Jonathan
+                            Rodriguez</h4>
+                        <p class="card-text text-center page5-team-card-body-post">Founder &
+                            CEO</p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image2 Cropped.png"
+                        alt="Card image">
+                    <div class=" card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            William
+                            Huffington</h4>
+                        <p class="card-text text-center page5-team-card-body-post">Food
+                            Manager
+                        </p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image3 Cropped.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            Santiago
+                            Giménez</h4>
+                        <p class="card-text text-center page5-team-card-body-post">Bar
+                            Manager
+                        </p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-2">
+                <div class="card page5-team-card">
+                    <img class="card-img-top page5-team-card-img" src="Images/page4/team/team_image1 Cropped.png"
+                        alt="Card image">
+                    <div class=" card-body">
+                        <h4 class="card-title text-center pt-0 mt-0 page5-team-card-body-name">
+                            Jonathan
+                            Rodriguez</h4>
+                        <p class="card-text text-center page5-team-card-body-post">
+                            Founder & CEO</p>
+                        <div class="text-center text-light">
+                            <a class="fab fa-facebook-f page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-twitter page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-instagram page5-team-card-body-icon" href="#"></a>
+                            <a class="fab fa-linkedin-in page5-team-card-body-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section 3 Footer -->
+    <?php include'footer.php'?>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
