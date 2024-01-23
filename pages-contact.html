@@ -1,31 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <!-- Required Icons -->
     <!-- <link rel="stylesheet" href="/Fontawesome/fontawesome-free-5.15.3-web/css/all.css"> -->
-    <script src="https://kit.fontawesome.com/5699b6b2cf.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/5699b6b2cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <!-- Required Fonts -->
     <!-- Philosopher -->
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Charmanmon -->
-    <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap"
+      rel="stylesheet"
+    />
     <!-- Heebo 400 and 600 -->
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <!-- Permanent Marker -->
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="custom.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="custom.css" />
 
     <title>TakesAway.com/pages/contact</title>
     <!-- font-family:'Philosopher', sans-serif; -->
@@ -35,234 +58,550 @@
     <!-- font-family: 'Permanent Marker',cursive; -->
     <!-- color: rgb(220, 20, 20); -->
     <!-- #242c357c; -->
+  </head>
 
-</head>
-
-<body style="background-color: #15181c;">
+  <body style="background-color: #15181c">
     <!-- cart at the side -->
     <div class="sidecart-button">
-        <div class="sidecart-button-icon"><i class="fas fa-shopping-cart" style="margin-top: 25px;color: white;"></i>
-        </div>
-        <p class="sidecart-button-content">No Product in the Cart</p>
+      <div class="sidecart-button-icon">
+        <i
+          class="fas fa-shopping-cart"
+          style="margin-top: 25px; color: white"
+        ></i>
+      </div>
+      <p class="sidecart-button-content">No Product in the Cart</p>
     </div>
     <!-- on click top -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-angle-up"></i>
+    </button>
     <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
     <!-- Section 1 -->
     <!-- 1.Home overlay -->
     <!-- 2.Navbar -->
     <!-- 3.Heading -->
     <div class="bg-image page-section1-background">
-        <div id="Home-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
-            <div id="Home-overlays-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
-                <div id="Home-overlays-overlay2" onclick="nav3_close(),nav2_close(),nav1_close()">
-                    <div class="Home-overlays-overlay-group">
-                        <button class="Home-overlays-overlay-button">
-                            <i class="far fa-times-circle"></i>
-                        </button>
-                        <img src="Images/Homepage/Screen1/logo2.png" alt="Image" class="Home-overlays-overlay-img">
-                        <h2 class="Home-overlays-overlay-h2">Welcome Chase flavor</h2>
-                        <p class="Home-overlays-overlay-p">As well known and we are very busy all days advice you. Us of
-                            before arriving, so we can guarantee your seat. Us of before arriving, so we very busy all
-                            days advice you. Us of before arriving, so we can guarantee your seat. Us of before
-                            arriving, so we can.</p>
-                        <div class="Home-overlays-overlay-icon-group">
-                            <i class="fab fa-facebook-f" id="Home-overlays-overlay-icon"></i>
-                            <i class="fab fa-twitter" id="Home-overlays-overlay-icon"></i>
-                            <i class="fab fa-instagram" id="Home-overlays-overlay-icon"></i>
-                            <i class="fab fa-linkedin-in" id="Home-overlays-overlay-icon"></i>
-                        </div>
-                    </div>
-                </div>
+      <div id="Home-overlay" onclick="nav3_close(),nav2_close(),nav1_close()">
+        <div
+          id="Home-overlays-overlay"
+          onclick="nav3_close(),nav2_close(),nav1_close()"
+        >
+          <div
+            id="Home-overlays-overlay2"
+            onclick="nav3_close(),nav2_close(),nav1_close()"
+          >
+            <div class="Home-overlays-overlay-group">
+              <button class="Home-overlays-overlay-button">
+                <i class="far fa-times-circle"></i>
+              </button>
+              <img
+                src="Images/Homepage/Screen1/logo2.png"
+                alt="Image"
+                class="Home-overlays-overlay-img"
+              />
+              <h2 class="Home-overlays-overlay-h2">Welcome Chase flavor</h2>
+              <p class="Home-overlays-overlay-p">
+                As well known and we are very busy all days advice you. Us of
+                before arriving, so we can guarantee your seat. Us of before
+                arriving, so we very busy all days advice you. Us of before
+                arriving, so we can guarantee your seat. Us of before arriving,
+                so we can.
+              </p>
+              <div class="Home-overlays-overlay-icon-group">
+                <i
+                  class="fab fa-facebook-f"
+                  id="Home-overlays-overlay-icon"
+                ></i>
+                <i class="fab fa-twitter" id="Home-overlays-overlay-icon"></i>
+                <i class="fab fa-instagram" id="Home-overlays-overlay-icon"></i>
+                <i
+                  class="fab fa-linkedin-in"
+                  id="Home-overlays-overlay-icon"
+                ></i>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- <?php include'header.php'?> -->
-        <nav class="navbar navbar-expand-lg py-0">
-            <button class="navbar-toggler collapsed border-0 py-0" type=" button" data-toggle="collapse"
-                data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false"
-                aria-label="Toggle navigation" style="outline: none;filter:invert()"><i class="fas fa-bars"></i>
-            </button>
-            <button class="text-light Home-menu-icon-combination my-2 my-lg-4"
-                onclick="nav1_open(),nav2_open(),nav3_open()"
-                style="border: transparent; background-color: transparent;outline: none;"><i class="fas fa-bars"></i>
-            </button>
-            <div class="navbar-collapse justify-content-lg-center collapse" id="navbarsExample10">
-                <ul class="navbar-nav mr-lg-4">
-                    <li class="nav-item my-2 my-lg-4 mx-3" id="home">
-                        <a href="index.html" class="nav-link nav-text-style">HOME</a>
-                    </li>
-                    <li class="nav-item my-2 my-lg-4 mx-3" id="menu">
-                        <a href="menu.html" class="nav-link nav-text-style">MENU</a>
-                    </li>
-                    <li class="nav-item my-2 my-lg-4 mx-3" id="catering">
-                        <a href="catering.html" class="nav-link nav-text-style">
-                            CATERING</a>
-                    </li>
-                    <li class="d-none d-lg-block">
-                        <img src="images/Homepage/Screen1/logo.png" style="width:7rem">
-                    </li>
-                    <li class="nav-item my-2 my-lg-4 mx-3" id="about">
-                        <a href="about.html" class="nav-link nav-text-style">
-                            ABOUT</a>
-                    </li>
-                    <li class="nav-item my-2 my-lg-4 mx-3 dropdown" id="pages">
-                        <a class="nav-link dropdown-toggle nav-text-style" href="#" id="dropdown10"
-                            data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">PAGES</a>
-                        <div class="dropdown-menu rounded-0" aria-labelledby="dropdown10">
-                            <a class="dropdown-item header-nav-dropdown" href="pages-team.html">TEAM</a>
-                            <a class="dropdown-item header-nav-dropdown" href="pages-contact.html">CONTACT</a>
-                            <a class="dropdown-item header-nav-dropdown" href="pages-gallery.html">GALLERY</a>
-                            <a class="dropdown-item header-nav-dropdown" href="pages-shop.html">SHOP</a>
-                            <a class="dropdown-item header-nav-dropdown" href="pages-myacc.html">MY ACCOUNT</a>
-                            <a class="dropdown-item header-nav-dropdown" href="pages-checkout.html">CHECKOUT</a>
-                            <a class="dropdown-item header-nav-dropdown" href="pages-cart.html">CART</a>
-                            <a class="dropdown-item header-nav-dropdown border-0" href="pages-faq.html">FAQ</a>
-                        </div>
-                    </li>
-                    <li class="nav-item my-2 my-lg-4 mx-3" id="news">
-                        <a href="news.html" class="nav-link nav-text-style">
-                            NEWS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      </div>
+      <!-- <?php include'header.php'?> -->
+      <nav class="navbar navbar-expand-lg py-0">
+        <button
+          class="navbar-toggler collapsed border-0 py-0"
+          type=" button"
+          data-toggle="collapse"
+          data-target="#navbarsExample10"
+          aria-controls="navbarsExample10"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="outline: none; filter: invert()"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <button
+          class="text-light Home-menu-icon-combination my-2 my-lg-4"
+          onclick="nav1_open(),nav2_open(),nav3_open()"
+          style="
+            border: transparent;
+            background-color: transparent;
+            outline: none;
+          "
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div
+          class="navbar-collapse justify-content-lg-center collapse"
+          id="navbarsExample10"
+        >
+          <ul class="navbar-nav mr-lg-4">
+            <li class="nav-item my-2 my-lg-4 mx-3" id="home">
+              <a href="index.html" class="nav-link nav-text-style">HOME</a>
+            </li>
+            <li class="nav-item my-2 my-lg-4 mx-3" id="menu">
+              <a href="menu.html" class="nav-link nav-text-style">MENU</a>
+            </li>
+            <li class="nav-item my-2 my-lg-4 mx-3" id="catering">
+              <a href="catering.html" class="nav-link nav-text-style">
+                CATERING</a
+              >
+            </li>
+            <li class="d-none d-lg-block">
+              <img src="images/Homepage/Screen1/logo.png" style="width: 7rem" />
+            </li>
+            <li class="nav-item my-2 my-lg-4 mx-3" id="about">
+              <a href="about.html" class="nav-link nav-text-style"> ABOUT</a>
+            </li>
+            <li class="nav-item my-2 my-lg-4 mx-3 dropdown" id="pages">
+              <a
+                class="nav-link dropdown-toggle nav-text-style"
+                href="#"
+                id="dropdown10"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                aria-haspopup="true"
+                >PAGES</a
+              >
+              <div class="dropdown-menu rounded-0" aria-labelledby="dropdown10">
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-team.html"
+                  >TEAM</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-contact.html"
+                  >CONTACT</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-gallery.html"
+                  >GALLERY</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-shop.html"
+                  >SHOP</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-myacc.html"
+                  >MY ACCOUNT</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-checkout.html"
+                  >CHECKOUT</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown"
+                  href="pages-cart.html"
+                  >CART</a
+                >
+                <a
+                  class="dropdown-item header-nav-dropdown border-0"
+                  href="pages-faq.html"
+                  >FAQ</a
+                >
+              </div>
+            </li>
+            <li class="nav-item my-2 my-lg-4 mx-3" id="news">
+              <a href="news.html" class="nav-link nav-text-style"> NEWS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-        <script>
-            function nav1_open() {
-                document.getElementById("Home-overlay").style.width = "100%";
-            }
-            function nav1_close() {
-                document.getElementById("Home-overlay").style.width = "0%";
-            }
-            function nav2_open() {
-                document.getElementById("Home-overlays-overlay").style.width = "13rem";
-            }
-            function nav2_close() {
-                document.getElementById("Home-overlays-overlay").style.width = "0%";
-            }
-            function nav3_open() {
-                document.getElementById("Home-overlays-overlay2").style.height = "100%";
-            }
-            function nav3_close() {
-                document.getElementById("Home-overlays-overlay2").style.height = "0%";
-            }
-        </script>
-        <div class="page2-heading page-section1-head">
-            <h1 class="display-1 text-light text-center page-section1-head-text">CONTACT</h1>
-        </div>
+      <script>
+        function nav1_open() {
+          document.getElementById("Home-overlay").style.width = "100%";
+        }
+        function nav1_close() {
+          document.getElementById("Home-overlay").style.width = "0%";
+        }
+        function nav2_open() {
+          document.getElementById("Home-overlays-overlay").style.width =
+            "13rem";
+        }
+        function nav2_close() {
+          document.getElementById("Home-overlays-overlay").style.width = "0%";
+        }
+        function nav3_open() {
+          document.getElementById("Home-overlays-overlay2").style.height =
+            "100%";
+        }
+        function nav3_close() {
+          document.getElementById("Home-overlays-overlay2").style.height = "0%";
+        }
+      </script>
+      <div class="page2-heading page-section1-head">
+        <h1 class="display-1 text-light text-center page-section1-head-text">
+          CONTACT
+        </h1>
+      </div>
     </div>
     <!-- Section 2 -->
     <!-- Contact and Location -->
     <div class="container py-5">
-        <div class="container-fluid py-5">
-            <div class="row">
-                <div class="col-md-4 py-2">
-                    <div class="py-5 pages5-contact-section2-blocks">
-                        <h4 class="text-center text-light pages5-contact-section2-block1-head"> Contact Us</h4>
-                        <p class="text-center pages5-contact-section2-block1-phone">
-                            <i class="fas fa-phone-alt"></i> +1 123-456-789
-                        </p>
-                        <p class="text-center pages5-contact-section2-block1-others">
-                            Tel: +91 11 4050 0000
-                            <br />
-                            Email: info@example.com
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 py-2">
-                    <div class="py-3 px-3 pages5-contact-section2-blocks" style="background-color: #242c357c;">
-                        <p class="text-center pages5-contact-section2-block2-icon">
-                            <i class="fas fa-directions"></i>
-                        </p>
-                        <h4 class="text-center text-light pages5-contact-section2-block2-head">
-                            Get Direction</h4>
-                        <p class="text-center pages5-contact-section2-block2-others"> 85 Bay Meadows
-                            Drive Woodstock, GA 30188, United States
-                    </div>
-                </div>
-                <div class="col-md-4 py-2">
-                    <div class="pt-5 pages5-contact-section2-blocks">
-                        <h4 class="text-center text-light my-0 py-0 pages5-contact-section3-block3-head">Opening Hours
-                        </h4>
-                        <div class="py-3 px-4" style="font-size: 0.6rem;">
-                            Monday - Friday <p class="float-right py-0 pages5-contact-section3-block3-others"> 9.00 -
-                                20.00 </p>
-                        </div>
-                        <hr class="my-0 py-0" style="border-top: 3px dotted rgb(138, 138, 138);" />
-                        <div class="py-3 px-4" style="font-size: 0.6rem;padding:0 10%">
-                            Saturday - Sunday <p class="float-right pages5-contact-section3-block3-others"> 8.00 - 22.00
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-md-4 py-2">
+            <div class="py-5 pages5-contact-section2-blocks">
+              <h4
+                class="text-center text-light pages5-contact-section2-block1-head"
+              >
+                Contact Us
+              </h4>
+              <p class="text-center pages5-contact-section2-block1-phone">
+                <i class="fas fa-phone-alt"></i> +1 123-456-789
+              </p>
+              <p class="text-center pages5-contact-section2-block1-others">
+                Tel: +91 11 4050 0000
+                <br />
+                Email: info@example.com
+              </p>
             </div>
+          </div>
+          <div class="col-md-4 py-2">
+            <div
+              class="py-3 px-3 pages5-contact-section2-blocks"
+              style="background-color: #242c357c"
+            >
+              <p class="text-center pages5-contact-section2-block2-icon">
+                <i class="fas fa-directions"></i>
+              </p>
+              <h4
+                class="text-center text-light pages5-contact-section2-block2-head"
+              >
+                Get Direction
+              </h4>
+              <p class="text-center pages5-contact-section2-block2-others">
+                85 Bay Meadows Drive Woodstock, GA 30188, United States
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 py-2">
+            <div class="pt-5 pages5-contact-section2-blocks">
+              <h4
+                class="text-center text-light my-0 py-0 pages5-contact-section3-block3-head"
+              >
+                Opening Hours
+              </h4>
+              <div class="py-3 px-4" style="font-size: 0.6rem">
+                Monday - Friday
+                <p
+                  class="float-right py-0 pages5-contact-section3-block3-others"
+                >
+                  9.00 - 20.00
+                </p>
+              </div>
+              <hr
+                class="my-0 py-0"
+                style="border-top: 3px dotted rgb(138, 138, 138)"
+              />
+              <div class="py-3 px-4" style="font-size: 0.6rem; padding: 0 10%">
+                Saturday - Sunday
+                <p class="float-right pages5-contact-section3-block3-others">
+                  8.00 - 22.00
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Section 3 -->
     <!-- Ask A Question -->
     <div class="container pb-5 pt-0">
-        <div class="row">
-            <div class="col-md-6">
-                <h5 class="text-light py-3 pages5-contact-section3-head">Ask a question</h5>
-                <input class="py-2 px-3 pages5-contact-section3-input" type="text" placeholder="Name">
-                <input class="py-2 px-3 pages5-contact-section3-input" type="email" placeholder="Email"
-                    style="margin-top: 1rem;">
-                <input class="py-2 px-3 pages5-contact-section3-input" type="tel" placeholder="Phone Number"
-                    style="margin-top: 1rem;">
-                <textarea class="py-2 px-3 pages5-contact-section3-input" placeholder="Your Massege"
-                    style="margin-top: 1rem;height:7rem;"></textarea>
-                <button type="button" class="btn my-3 page5-contact-section3-btn">
-                    <a href="#" class="page5-contact-section3-btn-text">Send Message</a>
-                </button>
-            </div>
-            <div class="col-md-6">
-                <div class="py-3" id="page5-contact-section3-googleMap">
-                    <script>
-                        function myMap() {
-                            var mapProp = {
-                                center: new google.maps.LatLng(51.508742, -0.120850),
-                                zoom: 5,
-                                mapTypeId: google.maps.MapTypeId.ROADMAP
-                            };
-                            var map = new google.maps.Map(document.getElementById("page5-contact-section3-googleMap"), mapProp);
-                        }</script>
-                    <script
-                        src="https://maps.googleapis.com/maps/api/js?AIzaSyDjw8H5m2ymSB5IEdzVNa0D4gEytmDwGIU&callback=myMap">
-                        </script>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="text-light py-3 pages5-contact-section3-head">
+            Ask a question
+          </h5>
+          <input
+            class="py-2 px-3 pages5-contact-section3-input"
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            class="py-2 px-3 pages5-contact-section3-input"
+            type="email"
+            placeholder="Email"
+            style="margin-top: 1rem"
+          />
+          <input
+            class="py-2 px-3 pages5-contact-section3-input"
+            type="tel"
+            placeholder="Phone Number"
+            style="margin-top: 1rem"
+          />
+          <textarea
+            class="py-2 px-3 pages5-contact-section3-input"
+            placeholder="Your Massege"
+            style="margin-top: 1rem; height: 7rem"
+          ></textarea>
+          <button type="button" class="btn my-3 page5-contact-section3-btn">
+            <a href="#" class="page5-contact-section3-btn-text">Send Message</a>
+          </button>
         </div>
+        <div class="col-md-6">
+          <div class="py-3" id="page5-contact-section3-googleMap">
+            <script>
+              function myMap() {
+                var mapProp = {
+                  center: new google.maps.LatLng(51.508742, -0.12085),
+                  zoom: 5,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP,
+                };
+                var map = new google.maps.Map(
+                  document.getElementById("page5-contact-section3-googleMap"),
+                  mapProp
+                );
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?AIzaSyDjw8H5m2ymSB5IEdzVNa0D4gEytmDwGIU&callback=myMap"></script>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Section 4 Footer -->
-    <?php include'footer.php'?>
+    <footer class="container-fluid footer-background-img">
+      <div class="container footer-logo-image">
+        <div class="row">
+          <div class="col text-center">
+            <img
+              class=""
+              src="Images/Homepage/Screen1/logo.png"
+              alt="Image"
+              style="width: 7rem"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <p class="text-light" style="font-size: 0.75rem; font-weight: 600">
+              Subscribe for deals, offers and upcoming events.
+            </p>
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="input-group">
+                  <input
+                    class="form-control rounded-0 bg-dark border-0 footer-container-search-input"
+                    placeholder="Enter your email"
+                    aria-describedby="search-addon"
+                  />
+                  <button
+                    type="button"
+                    class="btn rounded-0 text-light footer-container-search-button"
+                  >
+                    <span class="material-icons">arrow_forward</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <p
+              class="text-light text-center py-md-0 py-2"
+              style="font-size: 0.7rem; font-weight: 600"
+            >
+              You’ll find Gloreya Covent Garden moments from West End’s famous
+              theatres.
+            </p>
+            <p
+              class="text-center footer-container-contact"
+              style="font-size: 0.7rem"
+            >
+              <i class="fas fa-phone-alt" style="color: rgb(220, 20, 20)"></i>
+              +94 91 454 9650
+            </p>
+            <p
+              class="text-center footer-container-contact"
+              style="font-size: 0.8rem"
+            >
+              <i class="fas fa-envelope" style="color: rgb(220, 20, 20)"></i>
+              takeawaysonweb@mail.com
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="text-center">
+              <button
+                type="button"
+                class="btn btn-lg rounded-0 footer-container-reservation-btn"
+              >
+                <a class="px-2" onclick="window.location.href='index.html'"
+                  >RESERVATION</a
+                >
+                <i class="fas fa-arrow-right" id="screen1-icon"></i>
+              </button>
+            </div>
+            <div class="py-3 text-center">
+              <span
+                class="footer-container-share-icons"
+                style="padding: 0.3rem 0.7rem"
+                ><i class="fab fa-facebook-f text-light"></i
+              ></span>
+              <span
+                class="footer-container-share-icons"
+                style="padding: 0.3rem 0.5rem"
+                ><i class="fab fa-twitter text-light"></i
+              ></span>
+              <span
+                class="footer-container-share-icons"
+                style="padding: 0.3rem 0.55rem"
+                ><i class="fab fa-instagram text-light"></i
+              ></span>
+              <span
+                class="footer-container-share-icons"
+                style="padding: 0.3rem 0.45rem"
+                ><i class="fab fa-youtube text-light"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+          style="border-top: 1px solid grey; border-bottom: 1px solid grey"
+        >
+          <div class="col-md-2 text-center footer-navbar-items">
+            <a class="footer-navbar-item-a" href="index.html">HOME</a>
+          </div>
+          <div class="col-md-2 text-center footer-navbar-items">
+            <a class="footer-navbar-item-a" href="menu.html">MENU</a>
+          </div>
+          <div class="col-md-2 text-center footer-navbar-items">
+            <a class="footer-navbar-item-a" href="catering.html">CATERING</a>
+          </div>
+          <div class="col-md-2 text-center footer-navbar-items">
+            <a class="footer-navbar-item-a" href="about.html">ABOUT</a>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="dropdown footer-navbar-items">
+              <a
+                class="dropdown-toggle footer-navbar-item-a"
+                data-toggle="dropdown"
+                >PAGES</a
+              >
+              <div class="dropdown-menu rounded-0">
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-team.html"
+                  >TEAM</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-contact.html"
+                  >CONTACT</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-gallery.html"
+                  >GALLERY</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-shop.html"
+                  >SHOP</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-myacc.html"
+                  >MY ACCOUNT</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-checkout.html"
+                  >CHECKOUT</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item"
+                  href="pages-cart.html"
+                  >CART</a
+                >
+                <a
+                  class="dropdown-item footer-navbar-item-a-dropmenu-item border-0"
+                  href="pages-faq.html"
+                  >FAQ</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center footer-navbar-items">
+            <a class="footer-navbar-item-a" href="news.html">NEWS</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p
+              class="text-light text-center"
+              style="font-size: 0.75rem; padding: 0.3rem 0 0 0"
+            >
+              © Gloreya, 2021. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
