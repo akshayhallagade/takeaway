@@ -28,8 +28,7 @@ To run the project locally, you can simply open the HTML files in a web browser.
 
 ## Video Presentation
 
-![Italian Cuisine Restaurant Website Demo]
-(/Images/ItalianCuisine.gif)
+![Italian Cuisine Restaurant Website Demo](/Images/ItalianCuisine.gif)
 
 Click on the image above to watch a video presentation demonstrating the features and functionality of the Italian Cuisine Restaurant Website.
 
