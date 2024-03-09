@@ -2,6 +2,10 @@
 
 Welcome to the Italian Cuisine Restaurant Website project! This project is a responsive website built using HTML, CSS, Bootstrap 4, and JavaScript. It showcases various pages such as the menu, news, catering, contact, and more for an Italian cuisine restaurant.
 
+## Demo Presentation
+
+![Italian Cuisine Restaurant Website Demo](/Images/ItalianCuisine.gif)
+
 ## Files Included
 
 - `index.html`: Main homepage of the website.
@@ -25,11 +29,3 @@ Welcome to the Italian Cuisine Restaurant Website project! This project is a res
 ## Running the Project
 
 To run the project locally, you can simply open the HTML files in a web browser. For example, to view the homepage, open `index.html` in your browser of choice.
-
-## Video Presentation
-
-![Italian Cuisine Restaurant Website Demo](/Images/ItalianCuisine.gif)
-
-Click on the image above to watch a video presentation demonstrating the features and functionality of the Italian Cuisine Restaurant Website.
-
-Feel free to explore the different pages and features of the website!
